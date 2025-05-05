@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: hwb(279 53% 26%);
+    background-attachment: fixed;
+    color: rgb(100, 62, 109);
+    margin: 0;
+
+}
+.cabecalho{ 
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 320px;
+}
+.cabecalho-menu-links{
+    font-family:cursive;
+    font-size: 24px;
+    font-weight:600;
+    color:rgb(56, 13, 13);
+    text-decoration: none;  
+}
+   .titulo-destaque{
+    color: rgb(66, 28, 73);
+   } 
+   .conteudo{
+    height: auto;
+    flex-direction: column;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+   }
+       .apresentacao-conteudo{
+
+        width: 615px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        gap: 40px;
+        order: 2;
+       } 
+
+       .apresentacao-conteudo-titulo{
+        font-size: 36px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+       }
+       .apresentacao-conteudo-paragrafo {
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+
+       }
+       .apresentacao-links-conteudo {
+
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 40px;
+       }
+       .botao1{
+        background-color: black;
+        color: rgb(99, 70, 126);
+        width: 500px;
+        height: 80px;
+        text-align: center;
+        border: 2px solid #4e2157;
+        border-radius: 50px;
+        font-size: 36px;
+        padding: 15px 0;
+        text-decoration: none;
+        font-family: fantasy;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        overflow: hidden;
+       }
+    
